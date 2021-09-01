@@ -1,0 +1,23 @@
+{
+  "name": "bot-gibao",
+  "version": "1.0.0",
+  "description": "I'm a Gibão creation, for and by him. Hope your all enjoy and have a lot funny moments with me!",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luskas8/bot-gibao.git"
+  },
+  "keywords": [
+    "bot",
+    "gibao"
+  ],
+  "author": "luskas8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luskas8/bot-gibao/issues"
+  },
+  "homepage": "https://github.com/luskas8/bot-gibao#readme"
+}

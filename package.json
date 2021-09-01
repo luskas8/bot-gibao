@@ -4,6 +4,7 @@
   "description": "I'm a Gibão creation, for and by him. Hope your all enjoy and have a lot funny moments with me!",
   "main": "index.ts",
   "scripts": {
+    "start": "tsnd --respawn --transpile-only index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/luskas8/bot-gibao/issues"
   },
-  "homepage": "https://github.com/luskas8/bot-gibao#readme"
+  "homepage": "https://github.com/luskas8/bot-gibao#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.6.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "libsodium-wrappers": "^0.7.9"
+  }
 }
